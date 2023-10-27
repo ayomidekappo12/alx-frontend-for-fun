@@ -836,7 +836,7 @@ label {
   display: block;
   white-space: nowrap;
   font-size: 1.4rem;
-  padding: 0 0 .5rem;
+  padding: 0 0 0.5rem;
 }
 
 input[type="text"],
@@ -846,7 +846,7 @@ textarea {
   width: 100%;
   padding: 1.2rem;
   line-height: 1;
-  border: .1rem solid var(--color-black);
+  border: 0.1rem solid var(--color-black);
   background-color: var(--color-white);
   box-shadow: none;
   outline: 0;
@@ -854,13 +854,13 @@ textarea {
 
 input[type="text"],
 input[type="email"] {
-  padding: right;
+  padding-right: 3rem;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
-  border: .1rem solid var(--color-grey);
+  border: 0.1rem solid var(--color-grey);
   background-color: var(--color-light-grey);
 }
 
