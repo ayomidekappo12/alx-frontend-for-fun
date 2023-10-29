@@ -1,0 +1,66 @@
+:root {
+    --color-primary: #FFFFFF;
+    --box1-color: #00FF00;
+    --box2-color: #127adb;
+    --box3-color: #5B7586;
+    --box4-color: #A020F0;
+    --box5-color: #FFA500;
+    --background-color: #F5F5F5;
+    --font-size: 4rem;
+    --width-size: 3.5;
+    --height-size: 2;
+}
+
+.container {
+    display: flex;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+}
+
+.box {
+  color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-0.7rem);
+}
+
+
+.box1 {
+   background: var(--box1-color);
+}
+
+.box2 {
+   background: var(--box2-color);
+}
+
+.box1,
+.box5 {
+    font-size: calc(var(--font-size) * 0.25);
+    width:calc(var(--font-size) * 0.25 * var(--width-size));
+    height: calc(var(--font-size) * 0.25 * var(--height-size));
+}
+
+.box3 {
+    background: var(--box3-color);
+    font-size: calc(var(--font-size) * 1);
+    width:calc(var(--font-size) * 1 * var(--width-size));
+    height: calc(var(--font-size) * 1 * var(--height-size));
+}
+
+.box2,
+.box4 {
+    font-size: calc(var(--font-size) * 0.5);
+    width:calc(var(--font-size) * 0.5 * var(--width-size));
+    height: calc(var(--font-size) * 0.5 * var(--height-size));
+}
+
+.box4 {
+   background: var(--box4-color);
+}
+
+.box5 {
+   background: var(--box5-color);
+}
