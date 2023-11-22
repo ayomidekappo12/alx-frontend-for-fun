@@ -1,0 +1,18 @@
+/* Write a Sass file that assigns:
+
+Margin left and right at 10px to body tags
+Margin left and right at 15px to div tags
+You must use a mixin */
+
+@mixin setMargin($margin: 10px) {
+  margin-left: $margin;
+  margin-right: $margin;
+}
+
+body {
+  @include setMargin;
+}
+
+div {
+  @include setMargin($margin: 15px);
+}
