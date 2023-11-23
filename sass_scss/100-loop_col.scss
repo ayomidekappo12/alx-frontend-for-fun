@@ -9,8 +9,8 @@ You must create .col-* class from 1 to 4
 You must use a @for statement
 **/
 
-@for $i from 1 through 4 {
-  .col-#{$i} {
-    width: percentage(1 / $i);
+@for $item from 1 through 4 {
+  .col-#{$item} {
+    width: 100% / $item;
   }
 }
